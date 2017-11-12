@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: rgb(233, 233, 233);
 }
 header {
     background: #999;
@@ -8,10 +9,17 @@ header {
 }
 
 header h1 {
+    color: #ffffff;
     margin:0;
     display: inline;
+    flood-color: #ffffff;
 }
 
+h2 {
+    background: #b3d0f5;
+    padding: 0px 55px;
+    display: inline;
+}
 nav ul {
     margin:0;
     padding:0 0 0 15px;
@@ -19,7 +27,7 @@ nav ul {
 }
 
 nav ul li {
-    background: rgb(38, 94, 47); 
+    background: rgb(170, 165, 165); 
     color: white;
     display: inline-block;
     list-style-type: none;
@@ -37,7 +45,7 @@ div.row {
 }
 
 div.col {
-    background: #333;
+    background: rgb(76, 123, 177);
     border-radius: 5px;
     color: white;
     padding: 10px .5%;
@@ -45,7 +53,7 @@ div.col {
     width: 31%;
     margin: .5%;
 }
-
 footer {
     clear: both;
+    padding: 15px;
 }
